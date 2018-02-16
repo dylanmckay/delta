@@ -1,7 +1,15 @@
 [package]
-name = "easytimer"
+name = "delta"
 version = "0.1.0"
 authors = ["Dylan McKay <me@dylanmckay.io>"]
+
+description = """
+An easy to use timer library.
+"""
+documentation = "http://docs.rs/delta"
+repository = "https://github.com/dylanmckay/delta"
+
+license = "MIT"
 
 [dependencies]
 chrono = "0.4"
