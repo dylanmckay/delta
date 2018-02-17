@@ -6,7 +6,7 @@ use chrono::{DateTime, Utc};
 use std::cmp;
 
 /// A timer.
-#[derive(Copy, Clone)]
+#[derive(Copy, Clone, Debug, PartialEq, Eq, PartialOrd, Ord, Hash)]
 pub enum Timer {
     /// The timer has not been started yet.
     NotStarted,
